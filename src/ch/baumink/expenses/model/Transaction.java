@@ -1,4 +1,4 @@
 package ch.baumink.expenses.model;
 
-public class Transaktion {
+public class Transaction {
 }
