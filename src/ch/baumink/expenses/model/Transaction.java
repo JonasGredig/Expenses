@@ -5,19 +5,19 @@ import java.util.Date;
 
 public class Transaction {
 
-    private String name;
+    private long amount;
     private ArrayList<String> tags;
     private String category;
-    private Date date;
     private int importance;
+    private Date date;
     private String comment;
 
-    public String getName() {
-        return name;
+    public long getAmount() {
+        return amount;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setAmount(long amount) {
+        this.amount = amount;
     }
 
     public ArrayList<String> getTags() {
