@@ -65,5 +65,7 @@
     <orderEntry type="library" name="JBoss Weld-2.0.3" level="project" />
     <orderEntry type="library" name="PrimeFaces-6.1" level="project" />
     <orderEntry type="library" name="JBoss Weld-2.0.3" level="project" />
+    <orderEntry type="library" name="PrimeFaces-6.1" level="project" />
+    <orderEntry type="library" name="JBoss Weld-2.0.3" level="project" />
   </component>
 </module>
