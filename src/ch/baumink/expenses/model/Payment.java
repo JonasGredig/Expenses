@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 public class Payment {
 
+    private long id;
     private long amount;
     private ArrayList<String> tags;
     private Category category;
@@ -15,6 +16,13 @@ public class Payment {
     private Date timestamp;
     private boolean isDeleted;
 
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
 
     public long getAmount() {
         return amount;
